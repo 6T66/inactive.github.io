@@ -1,0 +1,676 @@
+#button0 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:black;
+  color:white;
+  text-decoration:none;
+  border:2px solid black;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button0:hover {
+
+  background:white;
+  color:black;
+  text-decoration:none;
+  border:2px solid black;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button1 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:green;
+  color:white;
+  text-decoration:none;
+  border:2px solid green;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+
+}
+
+#button1:hover {
+
+  background:white;
+  color:green;
+  text-decoration:none;
+  border:2px solid green;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button2 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:red;
+  color:white;
+  text-decoration:none;
+  border:2px solid red;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+
+
+
+}
+
+#button2:hover {
+
+  background:white;
+  color:red;
+  text-decoration:none;
+  border:2px solid red;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button3 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:red;
+  color:white;
+  text-decoration:none;
+  border:2px solid red;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button3:hover {
+
+  background:white;
+  color:red;
+  text-decoration:none;
+  border:2px solid red;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button4 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#4d004d;
+  color:white;
+  text-decoration:none;
+  border:2px solid #4d004d;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button4:hover {
+
+  background:white;
+  color:#4d004d;
+  text-decoration:none;
+  border:2px solid #4d004d;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button5 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#4d004d;
+  color:white;
+  text-decoration:none;
+  border:2px solid #4d004d;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button5:hover {
+
+  background:white;
+  color:#4d004d;
+  text-decoration:none;
+  border:2px solid #4d004d;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button6 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#99e6ff;
+  color:white;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button6:hover {
+
+  background:white;
+  color:#99e6ff;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button7 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#99e6ff;
+  color:white;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button7:hover {
+
+  background:white;
+  color:#99e6ff;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button8 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#99e6ff;
+  color:white;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button8:hover {
+
+  background:white;
+  color:#99e6ff;
+  text-decoration:none;
+  border:2px solid #99e6ff;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button9 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#990073;
+  color:white;
+  text-decoration:none;
+  border:2px solid #990073;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button9:hover {
+
+  background:white;
+  color:#990073;
+  text-decoration:none;
+  border:2px solid #990073;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button10 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#990073;
+  color:white;
+  text-decoration:none;
+  border:2px solid #990073;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button10:hover {
+
+  background:white;
+  color:#990073;
+  text-decoration:none;
+  border:2px solid #990073;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button11 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ff9900;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ff9900;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button11:hover {
+
+  background:white;
+  color:#ff9900;
+  text-decoration:none;
+  border:2px solid #ff9900;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button12 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ff9900;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ff9900;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button12:hover {
+
+  background:white;
+  color:#ff9900;
+  text-decoration:none;
+  border:2px solid #ff9900;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button13 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ff3333;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ff3333;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button13:hover {
+
+  background:white;
+  color:#ff3333;
+  text-decoration:none;
+  border:2px solid #ff3333;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button14 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ff3333;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ff3333;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button14:hover {
+
+  background:white;
+  color:#ff3333;
+  text-decoration:none;
+  border:2px solid #ff3333;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button15 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ffff00;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ffff00;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button15:hover {
+
+  background:white;
+  color:#ffff00;
+  text-decoration:none;
+  border:2px solid #ffff00;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button16 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#ffff00;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ffff00;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button16:hover {
+
+  background:white;
+  color:#ffff00;
+  text-decoration:none;
+  border:2px solid #ffff00;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button17 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#004d00;
+  color:white;
+  text-decoration:none;
+  border:2px solid #004d00;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button17:hover {
+
+  background:white;
+  color:#004d00;
+  text-decoration:none;
+  border:2px solid #004d00;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button18 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#004d00;
+  color:white;
+  text-decoration:none;
+  border:2px solid #004d00;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button18:hover {
+
+  background:white;
+  color:#004d00;
+  text-decoration:none;
+  border:2px solid #004d00;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button19 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#000099;
+  color:white;
+  text-decoration:none;
+  border:2px solid #000099;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button19:hover {
+
+  background:white;
+  color:#000099;
+  text-decoration:none;
+  border:2px solid #000099;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#button20 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:#000099;
+  color:white;
+  text-decoration:none;
+  border:2px solid #000099;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#button20:hover {
+
+  background:white;
+  color:#000099;
+  text-decoration:none;
+  border:2px solid #000099;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#railroad0 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:black;
+  color:white;
+  text-decoration:none;
+  border:2px solid black;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#railroad0:hover {
+
+  background:white;
+  color:black;
+  text-decoration:none;
+  border:2px solid ;black
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#utility0 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:black;
+  color:white;
+  text-decoration:none;
+  border:2px solid black;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#utility0:hover {
+
+  background:white;
+  color:black;
+  text-decoration:none;
+  border:2px solid black;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
+#sub0 {
+
+  font-size:16px;
+  border-radius:12px;
+  background:black;
+  color:white;
+  text-decoration:none;
+  border:2px solid black;
+  transition-duration:0.4s;
+  text-align:center;
+  display:inline;
+  padding:16px;
+
+}
+
+#sub0:hover {
+
+  background:white;
+  color:black;
+  text-decoration:none;
+  border:2px solid black;
+  text-align:center;
+  font-size:16px;
+  display:inline;
+  padding:16px;
+
+}
+
