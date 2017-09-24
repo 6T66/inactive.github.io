@@ -1,4 +1,11 @@
-var mainValue = 2000;
+
+var mainValue  = 0;
+
+function staFunction() {
+	
+mainValue = prompt("What would the starting value be?");
+	
+}
 
 function mainValueReturnFunction() {
 	
@@ -130,4 +137,118 @@ function SDVFunction() {
 var subtract = prompt("How much to be taken off?");
 mainValue = mainValue - subtract;
 
+}
+
+function medrent(){
+	
+mainValue = mainValue - 2;
+	
+}
+
+function balrent() {
+	
+mainValue = mainValue - 4;
+	
+}
+
+function orerent() {
+	
+mainValue = mainValue - 6;
+	
+}
+
+function conrent() {
+	
+mainValue = mainValue - 8;
+	
+}
+
+function stcrent() {
+	
+mainValue = mainValue - 10;
+	
+}
+
+function virrent() {
+	
+mainValue= mainValue - 12;
+	
+}
+
+function stjrent() {
+	
+mainValue = mainValue - 14;
+	
+}
+
+function newrent() {
+	
+mainValue = mainValue -16;
+	
+}
+
+function kenrent() {
+	
+mainValue = mainValue - 18;
+	
+}
+
+function illrent() {
+	
+mainValue = mainValue -20;
+	
+}
+
+function atlrent() {
+	
+mainValue = mainValue - 22;
+	
+}
+
+function marrent() {
+	
+mainValue = mainValue - 24;
+	
+}
+
+function pacrent() {
+	
+mainValue = mainValue - 26;
+	
+}
+
+function penrent() {
+	
+mainValue = mainValue - 28;
+	
+}
+
+function parrent() {
+	
+mainValue = mainValue - 35;
+	
+}
+
+function boarent() {
+	
+mainValue = mainValue - 50;
+	
+}
+
+function rairent() {
+	
+mainValue = mainValue - 25
+	
+}
+
+function medrent1() {
+	
+mainValue = mainValue -10;
+	
+}
+
+function balrent1() {
+	
+mainValue = mainValue - 20;
+	
 }
