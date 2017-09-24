@@ -8,9 +8,806 @@
 
     <link rel="stylesheet" type="text/css" href="theme.css">
 
+	<script src="ValueIncrementScript.js"></script>
+	
   </head>
 
 <body>
+
+  <div>
+	
+	<table>
+	
+		<tr>
+		
+			<th>Property Name</th>
+			<th>Price</th>
+			<th>Buying Or Selling</th>
+		
+		</tr>
+	
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button0">
+
+					Input Starting Value
+
+				</button>
+				
+			</th>
+			<th>
+			
+				0
+			
+			</th>
+			<th>
+			
+				none
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button0" onclick="mainValueReturnFunction()">
+
+					Display mainValue
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				0
+			
+			</th>
+			
+			<th>
+			
+				none
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button1" onclick="buttonFunction0()">
+
+					Passing Go(+200)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+					+200
+			
+			</th>
+			
+			<th>
+			
+					none
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button2" onclick="luxtaxFunction()">
+
+					Luxury Tax(-75)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-75
+			
+			</th>
+			
+			<th>
+			
+				none
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button3" onclick="inctaxFunction()">
+
+					Income Tax(-200 or 10%)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-200
+			
+			</th>
+			
+			<th>
+			
+				none
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				 <button type="button" id="button4" onclick="medbuyFunction()">
+
+					Mediterranean Ave.(-60)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+			-60
+			
+			</th>
+			
+			<th>
+			
+			Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				 <button type="button" id="button5" onclick="medbuyFunction()">
+
+					Baltic States(-60)
+
+				 </button>
+			
+			</th>
+			
+			<th>
+			
+				-60
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button6" onclick="smallblueFunction()">
+
+					Oriental Ave.(-100)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-100
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button7" onclick="smallblueFunction()">
+
+					Vermont Ave.(-100)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-100
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button8" onclick="largeblueFunction()">
+
+					Conneticut Ave.(-120)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-120
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				 <button type="button" id="button9" onclick="smapurFunction()">
+
+					St. Charles Place(-140)
+
+				 </button>
+			
+			</th>
+			
+			<th>
+			
+				-140
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button9" onclick="smapurFunction()">
+
+					States Ave.(-140)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-140
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button10" onclick="larpurFunction()">
+
+					Virginia Ave.(-160)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-160
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button11" onclick="smaoraFunction()">
+
+					St. James Place(-180)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-180
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button11" onclick="smaoraFunction()">
+
+					Tennessee Ave.(-180)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-180
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button12" onclick="laroraFunction()">
+
+					Newyork Ave.(-200)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-200
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button13" onclick="smaredFunction()">
+
+					Kentucky Ave.(-220)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-220
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button13" onclick="smaredFunction()">
+
+					Indiana(-220)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-220
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button14" onclick="larredFunction()">
+
+					Illinois(-240)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-240
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button15" onclick="smayelFunction()">
+
+					Atlantic Ave.(-260)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-260
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button15" onclick="smayelFunction()">
+
+					Ventour Ave.(-260)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-260
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button16" onclick="laryelFunction()">
+
+					Marvin Gardens(-280)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-280
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button17" onclick="smagreFunction"()>
+
+					Pacific Ave.(-300)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-300
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button17" onclick="smagreFunction()">
+
+					North Carolina Ave.(-300)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-300
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button18" onclick="largreFunction()">
+
+					Pennsylvania(-320)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-320
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button19" onclick="parkFunction()">
+
+					Park Place(-350)
+
+				</button>
+	
+			</th>
+			
+			<th>
+			
+				-350
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="button20"onclick="boardFunction()">
+
+					Boardwalk(-400)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-400
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="railroad0" onclick="railFunction()">
+
+					Railroad(-200)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-200
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="utility0" onclick="utilFunction()">
+
+					WaterWorks(-150)<br>
+					Electric Company(-150)
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				-150
+			
+			</th>
+			
+			<th>
+			
+				Buying
+			
+			</th>
+		
+		</tr>
+		
+		<tr>
+		
+			<th>
+			
+				<button type="button" id="sub0"onclick="SDVFunction()">
+
+					Subtract Defined Value
+
+				</button>
+			
+			</th>
+			
+			<th>
+			
+				0
+			
+			</th>
+			
+			<th>
+			
+				none
+			
+			</th>
+		
+		</tr>
+		
+	</table>
+	
+  </div>
 
   <div class="button_row0">
 
@@ -19,173 +816,179 @@
         Input Starting Value
 
       </button>
+	  
+	  <button type="button" id="button0" onclick="mainValueReturnFunction()">
 
-      <button type="button" id="button1">
+        Display mainValue
+
+      </button>
+
+      <button type="button" id="button1" onclick="buttonFunction0()">
 
         Passing Go(+200)
 
       </button>
 
-      <button type="button" id="button2">
+      <button type="button" id="button2" onclick="luxtaxFunction()">
 
        Luxury Tax(-75)
 
       </button>
 
-      <button type="button" id="button3">
+      <button type="button" id="button3" onclick="inctaxFunction()">
 
         Income Tax(-200 or 10%)
 
       </button>
 
-      <button type="button" id="button4">
+      <button type="button" id="button4" onclick="medbuyFunction()">
 
         Mediterranean Ave.(-60)
 
       </button>
 
-      <button type="button" id="button5">
+      <button type="button" id="button5" onclick="medbuyFunction()">
 
         Baltic States(-60)
 
       </button>
 
-      <button type="button" id="button6">
+      <button type="button" id="button6" onclick="smallblueFunction()">
 
         Oriental Ave.(-100)
 
       </button>
 
-      <button type="button" id="button7">
+      <button type="button" id="button7" onclick="smallblueFunction()">
 
         Vermont Ave.(-100)
 
       </button>
 
-      <button type="button" id="button8">
+      <button type="button" id="button8" onclick="largeblueFunction()">
 
         Conneticut Ave.(-120)
 
       </button>
 
-      <button type="button" id="button9">
+      <button type="button" id="button9" onclick="smapurFunction()">
 
         St. Charles Place(-140)
 
       </button>
 
-      <button type="button" id="button9">
+      <button type="button" id="button9" onclick="smapurFunction()">
 
         States Ave.(-140)
 
       </button>
 
-      <button type="button" id="button10">
+      <button type="button" id="button10" onclick="larpurFunction()">
 
         Virginia Ave.(-160)
 
       </button>
 
-      <button type="button" id="button11">
+      <button type="button" id="button11" onclick="smaoraFunction()">
 
         St. James Place(-180)
 
       </button>
 
-      <button type="button" id="button11">
+      <button type="button" id="button11" onclick="smaoraFunction()">
 
         Tennessee Ave.(-180)
 
       </button>
 
-      <button type="button" id="button12">
+      <button type="button" id="button12" onclick="laroraFunction()">
 
         Newyork Ave.(-200)
 
       </button>
 
-      <button type="button" id="button13">
+      <button type="button" id="button13" onclick="smaredFunction()">
 
         Kentucky Ave.(-220)
 
       </button>
 
-      <button type="button" id="button13">
+      <button type="button" id="button13" onclick="smaredFunction()">
 
         Indiana(-220)
 
       </button>
 
-      <button type="button" id="button14">
+      <button type="button" id="button14" onclick="larredFunction()">
 
         Illinois(-240)
 
       </button>
 
-      <button type="button" id="button15">
+      <button type="button" id="button15" onclick="smayelFunction()">
 
         Atlantic Ave.(-260)
 
       </button>
 
-      <button type="button" id="button15">
+      <button type="button" id="button15" onclick="smayelFunction()">
 
         Ventour Ave.(-260)
 
       </button>
 
-      <button type="button" id="button16">
+      <button type="button" id="button16" onclick="laryelFunction()">
 
         Marvin Gardens(-280)
 
       </button>
 
-      <button type="button" id="button17">
+      <button type="button" id="button17" onclick="smagreFunction"()>
 
         Pacific Ave.(-300)
 
       </button>
 
-      <button type="button" id="button17">
+      <button type="button" id="button17" onclick="smagreFunction()">
 
-        North Carolina Ave.(-300)
-
-      </button>
-
-      <button type="button" id="button18">
-
-        Pennsylvania(-320)
+          North Carolina Ave.(-300)
 
       </button>
 
-      <button type="button" id="button19">
+      <button type="button" id="button18" onclick="largreFunction()">
 
-        Park Place(-350)
-
-      </button>
-
-      <button type="button" id="button20">
-
-        Boardwalk(-400)
+         Pennsylvania(-320)
 
       </button>
 
-      <button type="button" id="railroad0">
+      <button type="button" id="button19" onclick="parkFunction()">
 
-        Railroad(-200)
+          Park Place(-350)
 
       </button>
 
-      <button type="button" id="utility0">
+      <button type="button" id="button20"onclick="boardFunction()">
+
+          Boardwalk(-400)
+
+      </button>
+
+      <button type="button" id="railroad0" onclick="railFunction()">
+
+          Railroad(-200)
+
+      </button>
+
+      <button type="button" id="utility0" onclick="utilFunction()">
 
           WaterWorks(-150)<br>
           Electric Company(-150)
 
       </button>
 
-      <button type="button" id="sub0">
+      <button type="button" id="sub0"onclick="SDVFunction()">
 
-       Subtract Random Value
+		  Subtract Defined Value
 
       </button>
 
